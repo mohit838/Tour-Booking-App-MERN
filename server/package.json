@@ -1,0 +1,19 @@
+{
+  "name": "booking-app-server",
+  "version": "1.0.0",
+  "description": "FullStack MERN Practicee projects",
+  "main": "index.js",
+  "author": "Mohammad Mohitul Islam",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6"
+  }
+}
