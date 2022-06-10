@@ -13,9 +13,5 @@
   "debug.console.fontSize": 18,
   "terminal.integrated.fontSize": 18,
   "editor.formatOnSave": true,
-  "eslint.format.enable": true,
-  "[markdown]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
-  }
+  "eslint.format.enable": true
 }
