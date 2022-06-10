@@ -3,6 +3,7 @@
   color: white;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .headerContainer {
@@ -39,4 +40,44 @@
   cursor: pointer;
   color: #ffffff;
   font-weight: 500;
+}
+
+.headerSearch {
+  height: 30px;
+  background-color: #fff;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headerIcon {
+  color: #b9b8b8;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  color: #b9b8b8;
+  cursor: pointer;
+}
+
+.date {
+  top: 50px;
+  position: absolute;
 }
