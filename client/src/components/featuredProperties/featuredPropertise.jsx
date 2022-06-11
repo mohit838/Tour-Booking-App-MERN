@@ -10,9 +10,9 @@ const featuredPropertise = () => {
           alt=""
           className="fPropertiseImg"
         />
-        <spain className="fPName">Aprrta Hotel Martaso</spain>
-        <spain className="fPCity">Dublin</spain>
-        <spain className="fPPrice">Starting from $123</spain>
+        <span className="fPName">Aprrta Hotel Martaso</span>
+        <span className="fPCity">Dublin</span>
+        <span className="fPPrice">Starting from $123</span>
         <div className="fPRating">
           <button>8.9</button>
           <span>Excellent</span>
@@ -24,9 +24,9 @@ const featuredPropertise = () => {
           alt=""
           className="fPropertiseImg"
         />
-        <spain className="fPName">Aprrta Hotel Martaso</spain>
-        <spain className="fPCity">Dublin</spain>
-        <spain className="fPPrice">Starting from $123</spain>
+        <span className="fPName">Aprrta Hotel Martaso</span>
+        <span className="fPCity">Dublin</span>
+        <span className="fPPrice">Starting from $123</span>
         <div className="fPRating">
           <button>8.9</button>
           <span>Excellent</span>
@@ -38,9 +38,9 @@ const featuredPropertise = () => {
           alt=""
           className="fPropertiseImg"
         />
-        <spain className="fPName">Aprrta Hotel Martaso</spain>
-        <spain className="fPCity">Dublin</spain>
-        <spain className="fPPrice">Starting from $123</spain>
+        <span className="fPName">Aprrta Hotel Martaso</span>
+        <span className="fPCity">Dublin</span>
+        <span className="fPPrice">Starting from $123</span>
         <div className="fPRating">
           <button>8.9</button>
           <span>Excellent</span>
@@ -52,9 +52,9 @@ const featuredPropertise = () => {
           alt=""
           className="fPropertiseImg"
         />
-        <spain className="fPName">Aprrta Hotel Martaso</spain>
-        <spain className="fPCity">Dublin</spain>
-        <spain className="fPPrice">Starting from $123</spain>
+        <span className="fPName">Aprrta Hotel Martaso</span>
+        <span className="fPCity">Dublin</span>
+        <span className="fPPrice">Starting from $123</span>
         <div className="fPRating">
           <button>8.9</button>
           <span>Excellent</span>
