@@ -1,0 +1,61 @@
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.listSearch {
+  flex: 1;
+  background-color: yellowgreen;
+  padding: 10px;
+  top: 10px;
+  position: static;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.listTitle {
+  font-size: 20px;
+  color: #383838;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.listItem > label {
+  font-size: 14px;
+}
+
+.listItem > input {
+  height: 30px;
+  padding: 5px;
+  border: none;
+}
+.listItem > span {
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.listResult {
+  flex: 3;
+}
