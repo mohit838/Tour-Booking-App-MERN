@@ -84,6 +84,7 @@
 .date {
   top: 50px;
   position: absolute;
+  z-index: 2;
 }
 
 /* .rdrCalendarWrapper {
@@ -101,6 +102,7 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.4);
+  z-index: 2;
 }
 
 .optionItem {
