@@ -1,0 +1,40 @@
+.fPropertise {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+}
+
+.fPropertiseItems {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.fPropertiseImg {
+  width: 100%;
+}
+.fPName {
+  font-weight: bold;
+}
+.fPCity {
+  font-weight: 300;
+}
+.fPPrice {
+  font-weight: 500;
+}
+
+.fPRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.fPRating > span {
+  font-size: 14px;
+}
