@@ -56,6 +56,32 @@
   cursor: pointer;
 }
 
+.listOptions {
+  padding: 10px;
+}
+
+.listOptionsItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #383838;
+  font-size: 14px;
+}
+
+.listOptionsInput {
+  width: 50px;
+}
+
+.listSearch > button {
+  padding: 10px;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+}
+
 .listResult {
   flex: 3;
 }

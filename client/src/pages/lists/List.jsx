@@ -39,6 +39,51 @@ const List = () => {
                 />
               )}
             </div>
+            <div className="listItem">
+              <label>Options</label>
+              <div className="listOptions">
+                <div className="listOptionsItem">
+                  <span className="listOptionText">
+                    Min Price <small>per night</small>
+                  </span>
+                  <input className="listOptionsInput" type="number" min={0} />
+                </div>
+                <div className="listOptionsItem">
+                  <span className="listOptionText">
+                    Max Price <small>per night</small>
+                  </span>
+                  <input className="listOptionsInput" type="number" min={0} />
+                </div>
+                <div className="listOptionsItem">
+                  <span className="listOptionText">Adult</span>
+                  <input
+                    className="listOptionsInput"
+                    type="number"
+                    placeholder={options.adult}
+                    min={1}
+                  />
+                </div>
+                <div className="listOptionsItem">
+                  <span className="listOptionText">Child</span>
+                  <input
+                    className="listOptionsInput"
+                    type="number"
+                    placeholder={options.child}
+                    min={0}
+                  />
+                </div>
+                <div className="listOptionsItem">
+                  <span className="listOptionText">Room</span>
+                  <input
+                    className="listOptionsInput"
+                    type="number"
+                    placeholder={options.room}
+                    min={1}
+                  />
+                </div>
+              </div>
+            </div>
+            <button>Search</button>
           </div>
           <div className="listResult"></div>
         </div>
