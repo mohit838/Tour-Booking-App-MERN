@@ -16,12 +16,13 @@
   background-color: yellowgreen;
   padding: 10px;
   top: 10px;
-  position: static;
+  position: sticky;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  height: max-content;
 }
 
 .listTitle {
