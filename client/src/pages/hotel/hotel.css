@@ -19,16 +19,12 @@
   top: 10px;
   right: 0;
   border: none;
-  cursor: pointer;
-  background-color: #8a2be2;
-  color: white;
   padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
   font-weight: bold;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  cursor: pointer;
 }
 
 .hotelTitle {
@@ -43,12 +39,12 @@
 }
 
 .hotelDistance {
-  color: #8a2be2;
+  color: #0071c2;
   font-weight: 500;
 }
 
 .hotelPriceHighlight {
-  color: #29a829;
+  color: #008009;
   font-weight: 500;
 }
 
@@ -65,15 +61,17 @@
 .hotelImg {
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .hotelDetails {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-.hotelDetailsText {
+.hotelDetailsTexts {
   flex: 3;
 }
 
@@ -84,7 +82,7 @@
 
 .hotelDetailsPrice {
   flex: 1;
-  background-color: #ddd;
+  background-color: #ebf3ff;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -92,30 +90,23 @@
 }
 
 .hotelDetailsPrice > h1 {
+  font-size: 18px;
   color: #555;
-  font-size: 20px;
 }
-
 .hotelDetailsPrice > span {
   font-size: 14px;
 }
-
 .hotelDetailsPrice > h2 {
   font-weight: 300;
 }
-
 .hotelDetailsPrice > button {
   border: none;
-  cursor: pointer;
-  background-color: #8a2be2;
-  color: white;
   padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
   font-weight: bold;
+  cursor: pointer;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .slider {
@@ -124,13 +115,13 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.613);
+  z-index: 999;
   display: flex;
   align-items: center;
-  background-color: rgb(84, 84, 84, 0.5);
 }
 
-.sliderwrapper {
+.sliderWrapper {
   width: 100%;
   height: 100%;
   display: flex;
@@ -138,7 +129,7 @@
   align-items: center;
 }
 
-.sliderImages {
+.sliderImg {
   width: 80%;
   height: 80vh;
 }
