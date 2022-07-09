@@ -1,5 +1,6 @@
 import express from "express";
 import Hotel from "../Models/Hotel.js";
+import createError from "../utils/error.js";
 
 const router = express.Router();
 
@@ -58,12 +59,18 @@ router.get("/:id", async (req, res) => {
 });
 
 //GET ALL
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
+  const failed = false;
+  // const err = new Error();
+  // err.status = 404;
+  // err.message = "Not Found!!";
+  if (failed) return next(createError(401, "You are not authenticated!!"));
+
   try {
     const hotels = await Hotel.find();
     res.status(200).json(hotels);
   } catch (error) {
-    res.status(500).json(error);
+    next(error);
   }
 });
 

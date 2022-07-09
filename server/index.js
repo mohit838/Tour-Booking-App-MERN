@@ -25,6 +25,19 @@ app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
+//Handling Error
+app.use((err, req, res, next) => {
+  const errStatus = err.status || 500;
+  const errMsg = err.message || "Something went worng!";
+  return res.status(errStatus).json({
+    success: false,
+    status: errStatus,
+    message: errMsg,
+    stack: err.stack,
+  });
+});
+
+//Test API
 app.get("/", (req, res) => {
   res.send("This is Server!!");
 });
