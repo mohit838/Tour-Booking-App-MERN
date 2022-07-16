@@ -1,6 +1,6 @@
 # The Projects Details Are Listed Below
 
-# Live Site: Comming Soon
+# Live Site: <a href="https://phenomenal-tartufo-cdbc52.netlify.app/" target="_blank"><a/>
 
 # Notes For Server:
 
