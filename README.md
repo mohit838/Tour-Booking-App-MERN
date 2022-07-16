@@ -18,4 +18,4 @@
 
 # Notes For Client:
 
-    Comming Soon!!
+   Basic structured are completed for backend and need more attention in future.
