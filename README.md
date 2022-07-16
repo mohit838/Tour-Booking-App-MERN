@@ -4,11 +4,7 @@
 
 # Demo Images:
 
-<img src="" alt="Booking App Site"/>
-
-
-
-
+<img src="siteDemoImg/demoImg.png" alt="Booking App Site"/>
 
 # Notes For Server:
 
@@ -26,4 +22,4 @@
 
 # Notes For Client:
 
-   Basic structured are completed for backend and need more attention in future.
+Basic structured are completed for backend and need more attention in future.
